@@ -7,6 +7,7 @@
     </h1>
   <% end%>
   <div>
+    <% # only purchase button if item still in stock else show add to cart %>
     <% if product.quantity == 0 %>
       <button type="button" class="soldout" disabled>Sold Out</button>
     <% else %>
