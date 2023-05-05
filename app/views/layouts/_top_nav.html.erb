@@ -39,7 +39,21 @@
               <%= link_to category.name, category, class: "nav-link" %>
             </li>
             <% end %>
-          <%# </ul>
+
+          <% if current_user %>
+            <li class="nav-item">
+              <a href="/logout" class="nav-link">Logout</a>
+            </li>
+          <% else %>
+            <li class="nav-item">
+              <a href="/login" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item">
+              <a href="/signup" class="nav-link">Sign up</a>
+            </li>
+          <% end %>
+          <%#
+          </ul>
         </li> %>
       </ul>
       <ul class="navbar-nav">
@@ -69,21 +83,3 @@
   </div>
 </nav>
 <script>
-(function(){
-const gnr = () => {
-    const uptitle = document.querySelector("section.title h3");
-    const subtitle = document.querySelector("section.title h2");
-    const header = document.querySelector("header.hero");
-
-    uptitle.style.fontSize = "5em";
-    uptitle.style.fontWeight = 900;
-    uptitle.style.textAlign = "center";
-
-    subtitle.innerHTML =
-      "<p>Watch it bring you to your</p><p> shu-n-n-n-n-n-n-n-n knees, knees!</p>";
-  };
-  const title = document.querySelector("header.hero");
-  title.addEventListener("dblclick", gnr);
-  
-})()
-  </script>
