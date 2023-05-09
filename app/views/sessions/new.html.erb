@@ -1,6 +1,8 @@
-<h1>Login</>
+<header class="page-header">
+  <h1>Login</>
+</header>
 
-<%= form_tag '/login' do %>
+<%= form_for '/login' do %>
 
   Email: <%= text_field_tag :email %>
   Password: <%= password_field_tag :password %>
