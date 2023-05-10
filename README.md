@@ -1,6 +1,25 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example. This was not built from me from scratch. I fixed bugs and added features as listed below as well as developed RSpec tests.
+
+## Features Added
+
+  - "Sold Out" badge for out of stock products
+  - Admin Page for adding new product categories
+  - Admin dashboard for reviewing categories and products in database
+  - Order details at checkout with order confirmation message
+  - Login and Signup pages with user authetification
+
+## Bugs Fixed
+
+  - Money formatting fix to show '$' signs when pertaining to currency
+  - Fixed http authentification for administrators
+  - Fixed empty cart checkout
+
+## RSpec Testing
+
+  - Validation of fields for user forms with authentification
+  - Validation of fields for adding additional products
 
 ## Setup
 
