@@ -21,6 +21,27 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
   - Validation of fields for user forms with authentification
   - Validation of fields for adding additional products
 
+## Screenshots
+
+  Product Index View
+
+  !["Screenshot Product Index"](https://github.com/7-O-2-H/jungle/blob/master/docs/Main%20Page%20-%20Products%20Index.png)
+
+  Product Show Page
+
+  !["Product View"](https://github.com/7-O-2-H/jungle/blob/master/docs/Product%20Show%20Page.png)
+
+  Checkout Page
+
+  !["Checkout Page"](https://github.com/7-O-2-H/jungle/blob/master/docs/Checkout%20Page.png)
+
+  Sold Out Button
+
+  !["Sold Out Button"](https://github.com/7-O-2-H/jungle/blob/master/docs/Out%20of%20Stock%20Example.png)
+
+
+
+  
 ## Setup
 
 1. Run `bundle install` to install dependencies
